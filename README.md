@@ -2,4 +2,4 @@ This repository contains all the codes needed to reproduce the results presented
 
 The simulations performed using these codes are based on the "Geothermal" and "upr" modules in the MATLAB Reservoir Simulation Toolbox (MRST), which is freely available at [mrst.no](https://www.sintef.no/projectweb/mrst/)
 
-Please submit an issue if you have any issues running this code.
+Please submit an issue if you have any problems running this code.
