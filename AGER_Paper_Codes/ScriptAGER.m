@@ -6,11 +6,13 @@ mrstModule add ad-core ad-props ad-blackoil geothermal compositional upr...
 mrstVerbose on
 
 %% Set up example
-% Figure6_7;
 % Initial Cases
-% example = MRSTExample('initialsd3spot');
-% example = MRSTExample('initialsddoublet');
-% example = MRSTExample('initial5mhf');
+% example = MRSTExample('fig8ato10'); % Fig 8a, 9, 10a-c
+% example = MRSTExample('fig8bto10'); % Fig 8b, 9, 10d-f
+example = MRSTExample('fig8cto10'); % Fig 8c, 9, 10g-i
+
+% example = MRSTExample('initialsddoublet'); % Supplementary case
+
 % 
 % % Extended Cases
 % example = MRSTExample('extendedfourteensdf');
@@ -25,7 +27,7 @@ mrstVerbose on
 
 % Case study
 % example = MRSTExample('casestudymhf');
-example = MRSTExample('casestudysd');
+% example = MRSTExample('casestudysd'); # Fig X
 
 
 % Short circuit study
@@ -54,7 +56,6 @@ example = MRSTExample('casestudysd');
 % example = MRSTExample('initialsddoubletlowbhp');
 
 %review
-% example = MRSTExample('initialsddoubletconnected');
 % example = MRSTExample('extendedfourteensdfconnected');
 %  example = MRSTExample('initialsddoubletconnectedlongperiod');
  
